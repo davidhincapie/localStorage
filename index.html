@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Search Bar Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheets/page.css" />
+  <link href='https://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <div class="header">
+    <h1 class="header-title">Search</h1>
+    <form autocomplete="off" id="searchForm">
+      <input class="text-input" type="text" id="searchBar">
+      <button class="button" type="submit">Search</button>
+    </form>
+  </div>
+
+  <div class="recent">
+    <h2 class="recent-title">Recent Searches</h2>
+    <button class="button" type="button" id="clearStorage">Clear Storage</button>
+    <ul class="recent-list" id="recentSearchList"></ul>
+  </div>
+  <script text="text/javascript" src="app.js"></script>
+</body>
+</html>
